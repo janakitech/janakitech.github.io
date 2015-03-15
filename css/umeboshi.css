@@ -3,8 +3,61 @@
 	margin:0;
 }
 .umeboshi.umeboshi-about-us .blox1{
-	background-image:url(../images/web-banner1.png);
+      background-color: #2c2c2c;
+	background-image:url(../images/web-banner2.png);
 }
 .page-title-x *{
 	color: #0ab1f0;
 }
+
+.hero-portfolio .container{
+  padding-top: 20px;
+  padding-bottom:20px;
+}
+
+
+.hero-picovico{
+  border-top: 1px solid #eee;
+}
+
+
+.product .onhover{
+  display: none
+}
+
+.product{
+    display: block;
+    text-align: center;
+}
+
+.product img{
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+
+
+/*
+
+.hero-portfolio .product, .product-caption{
+  padding: 50px 0;
+  text-align: center;
+    min-height: 150px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+
+.product-caption{
+    padding-top:35px;
+    text-align: left;
+}
+
+.product .onhover{
+  display: none
+}
+
+.hero-picovico{
+  border-top: 1px solid #eee;
+}*/
