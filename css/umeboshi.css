@@ -1,0 +1,10 @@
+/** Umeboshi */
+.umeboshi #wrap{
+	margin:0;
+}
+.umeboshi.umeboshi-about-us .blox1{
+	background-image:url(../images/web-banner1.png);
+}
+.page-title-x *{
+	color: #0ab1f0;
+}
