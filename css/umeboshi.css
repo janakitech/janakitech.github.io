@@ -28,12 +28,9 @@ li.current a{
       background-color: #2c2c2c;
 	background-image:url(../images/web-banner2.png);
 }
+
 .page-title-x *{
 	color: tan;
-}
-
-.hero-portfolio .container{
-  padding:100px 0;
 }
 
 
@@ -41,6 +38,10 @@ li.current a{
   border-top: 1px solid #eee;
 }
 
+
+.hero-portfolio > .container{
+  padding: 70px 20px;
+}
 
 .product .onhover{
   display: none
@@ -56,7 +57,7 @@ li.current a{
     margin-bottom: 10px;
     display: table-cell;
     vertical-align: bottom;
-    height: 45px;
+    height: 35px;
 }
 
 .tm{
