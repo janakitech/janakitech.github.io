@@ -1,4 +1,13 @@
 /** Umeboshi */
+
+a:link, a:visited{
+  color: tan !important;
+}
+
+li.current a{
+  color: black !important;
+}
+
 .umeboshi #wrap{
 	margin:0;
 }
@@ -39,11 +48,15 @@
 
 .product{
     display: block;
+    position: relative;;
 }
 
 .product img{
     margin-top:20px;
     margin-bottom: 10px;
+    display: table-cell;
+    vertical-align: bottom;
+    height: 45px;
 }
 
 .tm{
