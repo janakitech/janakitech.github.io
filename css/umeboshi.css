@@ -29,6 +29,49 @@ li.current a{
 	background-image:url(../images/web-banner2.png);
 }
 
+#careers .hero-features .blox1{
+    background-image: none;
+    background: white;
+}
+
+#careers .quote{
+    background: #f9f9f9;    
+    border-top: 1px solid tan;
+    border-bottom: 1px solid tan;
+    display: block;
+    text-align: center;
+}
+
+.quote h2 em{
+  display: inline-block;
+  font-size:0.6em;
+  line-height: 1em;
+  font-weight: bold;
+}
+
+.quote h2 em::before{
+  content: "- ";
+}
+
+.quote h2{
+  color:gray;
+  font-size: 2.5em;
+  padding: 30px;
+  font-style: italic;
+}
+
+#paper-ad h1{
+  margin-bottom: 0px !important;
+}
+
+#paper-ad h2{
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  font-size: 20px;
+  line-height: 1em;
+}
+
+
 .page-title-x *{
 	color: tan;
 }
@@ -90,3 +133,94 @@ li.current a{
 .hero-picovico{
   border-top: 1px solid #eee;
 }*/
+
+#careers #wrap{
+  background: #59A0D7 !important
+}
+
+
+.icon-box1 i{
+  color: #59A0D7 !important;
+}
+
+#how-good{
+  font-family: sans-serif;
+}
+
+
+.icon-box1:hover i{
+  background: #59A0D7;
+  border: 1px solid #59A0D7;
+}
+
+#how-good h2.first{
+  padding:80px 0 10px 0;
+}
+
+#how-good h2.first{
+  color: white;
+  text-shadow: 2px 2px #333;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#how-good h2.second{
+  font-family: mono;
+  font-size:1.5em;
+  padding:10px 0;
+  line-height: 2em;
+}
+
+#how-good h2.second span{
+  display: block;
+}
+
+#how-good h2.second span.x{
+  font-size: 1em;
+  line-height: 1.1em;
+  padding-top: 1em;
+}
+
+#how-good h2.second em{
+  background: #303030;
+  display: block;
+  font-style: normal;
+  border-radius: 5px;
+  padding:0.1em 1em;
+  color: white;
+  display: inline-block;
+}
+
+
+#how-good h3{
+  color: black;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  font-family: mono;
+  padding-bottom:20px;
+}
+
+.hero-features .col-sm-4:nth-child(3n+2){
+  clear: both;
+}
+
+.hero-features h4{
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+
+.hero-features h5{
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.hero-features h5::before{
+  content: "["
+}
+
+.hero-features h5::after{
+  content: "]"
+}
