@@ -7,16 +7,21 @@
    <meta name="author" content="Janaki Technology Pvt. Ltd.">
    
    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-   
+
+   <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" type="text/css"  media="all">
    <link rel="stylesheet" href="css/style.css" type="text/css"  media="all">
    <link rel="stylesheet" href="css/Hover-master/css/hover-min.css" type="text/css"  media="all">
+
    <link rel="stylesheet" href="css/umeboshi.css" type="text/css"  media="all">
+   
 
    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
    
    <!-- <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,400italic,400,300,600,700,900|Varela|Arapey:400,400italic' rel="stylesheet" type='text/css' > -->
 
    <script src="js/jquery.min.js" type="text/javascript"></script>
+   <script src="css/bootstrap/bootstrap.min.js"></script>
+   <script src="js/bootbox.min.js" type="text/javascript"></script>
    <!--[if lt IE 9]>
    <script src="js/modernizr.custom.11889.js" type="text/javascript"></script>
    <script src="js/respond.js" type="text/javascript"></script>
@@ -33,6 +38,9 @@
 ================================================== -->
 <div id="wrap">
 
+<div id='wrap-inner' class="container-fluid">
+   <div class="row">
+   <div class="col-sm-12">
    <header id="header" class="horizontal-w  sm-rgt-mn  ">
       <div class="container">
          <div class="col-md-3 col-sm-3 logo-wrap">
@@ -60,6 +68,7 @@
 <section class="container" id='how-good'>
    <div class="row">
       <div class="col-sm-6">
+         <div id='job-slogan'>
       <h2 class="first">HOW GOOD IS IT ?</h2>
 <h3>
 To wake up everyday and know that<br />
@@ -76,9 +85,25 @@ To be a part of the team whose
 philosophy is to make it happen
 </h3>
 
-<h2 class='second'><span><em>Apply</em></span>
- <span class='x'>for a career opportunity that you can be passionate about. </span>
+<h2 class='second'><a href='#' class='apply-the-job'><span><em>Apply</em></span></a>
+ <span class='x'> for a career opportunity that you can be passionate about. </span>
  </h2>
+ </div>
+
+ <div id='job-slogan-impress' style="display:none">
+               <h2 class="first">WARNING: </h2>
+               <h3>
+               You may end up being highly passionate about your job.</h3>
+               <h2 class='second' style='width:60%'>
+               [ Certain things catch your eye, but pursue only those that capture the heart. ]
+               </h2>
+               <h3>Why not talk over a coffee ? </h3>
+               <h3>But Resume first :P
+               <br />
+               <strong>hrm@janakitech.com </strong>
+               </h3>
+               <h2 class='first'><small style='color:white'>April Fool was so 2014.</small></h2>
+ </div>
 
 <hr class="vertical-space4" />
       </div>
@@ -88,12 +113,16 @@ philosophy is to make it happen
    </div>
 </section>
 
+</div>
+</div>
+</div>
+
 
 
 
    <section class="hero-features">
     <div class="realestate">
-        <div class="blox blox1">
+        <div class="blox">
               <div class="full-row">
                  <div class="container">
                     <div class="row">
@@ -186,8 +215,15 @@ philosophy is to make it happen
             <div class="widget">
                <div class="textwidget">
                   <p>Janaki Technology Pvt. Ltd.<br>Harihar Bhawan, Lalitpur<br />Nepal
-				  </p>
+              </p>
+
               <p>
+              <i class='fa fa-phone'></i> 
+              +977-1-5522942  
+              <br />
+              <i class="fa fa-envelope"></i>
+              in.box@janakitech.com
+              <br />
               <strong>GPO</strong> 8975 EPC 1887
               </p>
 
@@ -224,6 +260,7 @@ philosophy is to make it happen
 
    <!-- JS
    ================================================== -->
+   <!--
    <script src="js/jquery.plugins.js" type="text/javascript"></script>
    <script src="js/jquery.masonry.min.js" type="text/javascript"></script>
    <script src="js/mediaelement-and-player.min.js" type="text/javascript"></script>
@@ -233,7 +270,18 @@ philosophy is to make it happen
    <script src="js/jquery.jcarousel.min.js" type="text/javascript"></script>
    <script src="js/extent-custom.js" type="text/javascript"></script>
 
-	
+	-->
+
+   <script type="text/javascript">
+      $(function(){
+         $(".apply-the-job").click(function(){
+            $("#job-slogan").slideToggle('fast', function(){
+               $("#job-slogan-impress").slideToggle();
+            });
+         })
+      });
+   </script>
+
    
   
 </body>

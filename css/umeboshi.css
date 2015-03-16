@@ -17,6 +17,13 @@ li.current a{
   padding-top: 30px !important;
 }
 
+@media only screen and (max-width: 959px){
+  #header.sm-rgt-mn, #header.hi-header.sm-rgt-mn {
+    padding: 10px 0 0;
+    height: 120px !important
+  }
+}
+
 .nav-wrap1{
   height: 77px !important;
 }
@@ -30,11 +37,20 @@ li.current a{
   background: rgba(255, 255, 255, 0.8);
 }
 
+#careers #header, #careers header{
+  background: rgba(255, 255, 255, 0.3);
+}
+
 #wrap-inner{
   background-image: url(../images/hero-banner.png);
   background-size: cover;
   background-position: top left;
   background-repeat: no-repeat;;
+  background-color: #303030;
+}
+
+#careers #wrap-inner{
+  background: #59A0D7 !important;
 }
 
 #wrap-inner > .row{
@@ -45,7 +61,7 @@ li.current a{
 .umeboshi.umeboshi-about-us .blox1{
       background-color: #2c2c2c;
 	background:transparent;
-      height: 870px;
+      height: 610px;
 }
 
 #careers .hero-features .blox1{
@@ -211,6 +227,10 @@ li.current a{
   display: inline-block;
 }
 
+#how-good h2.second a:hover em{
+  background: black;
+}
+
 
 #how-good h3{
   color: black;
@@ -218,6 +238,10 @@ li.current a{
   line-height: 1.3em;
   font-family: mono;
   padding-bottom:20px;
+}
+
+.hero-features .blox{
+  padding-top:50px !important;
 }
 
 .hero-features .col-sm-4:nth-child(3n+2){
