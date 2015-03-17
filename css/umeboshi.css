@@ -38,7 +38,7 @@ li.current a{
 }
 
 #careers #header, #careers header{
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 #wrap-inner{
@@ -50,7 +50,9 @@ li.current a{
 }
 
 #careers #wrap-inner{
-  background: #59A0D7 !important;
+  /*background: #59A0D7 !important;*/
+	background:url(../images/careers-sky.png) #59A0D7 no-repeat bottom center;
+	background-size: cover;
 }
 
 #wrap-inner > .row{
@@ -194,17 +196,21 @@ li.current a{
 
 #how-good h2.first{
   color: white;
-  text-shadow: 2px 2px #333;
   font-size: 2em;
   font-weight: bold;
   text-transform: uppercase;
 }
 
+#how-good h2.first span{
+  color:yellow;
+}
+
 #how-good h2.second{
-  font-family: mono;
   font-size:1.5em;
   padding:10px 0;
   line-height: 2em;
+  color:white;
+  font-weight: bold;
 }
 
 #how-good h2.second span{
@@ -233,10 +239,10 @@ li.current a{
 
 
 #how-good h3{
-  color: black;
+	color:white;
   font-size: 1.5em;
   line-height: 1.3em;
-  font-family: mono;
+  font-weight: bold;
   padding-bottom:20px;
 }
 
@@ -266,4 +272,23 @@ li.current a{
 
 .hero-features h5::after{
   content: "]"
+}
+
+
+#job-slogan-impress h2.second{
+  width:60%;
+}
+
+#job-slogan-impress h2.second span{
+  color:yellow;
+  line-height: 1.2em;
+}
+
+#job-slogan-impress span.resume-email{
+  color: yellow;
+}
+
+#job-slogan-impress .fool{
+  color:#303030 !important;
+  font-size: 13px !important;
 }
