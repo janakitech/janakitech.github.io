@@ -250,7 +250,12 @@ li.current a{
   padding-top:50px !important;
 }
 
-.hero-features .col-sm-4:nth-child(3n+2){
+.hero-features .col-sm-6{
+  min-height: 300px;
+}
+
+
+.hero-features .col-sm-6:nth-child(2n){
   clear: both;
 }
 
@@ -303,4 +308,39 @@ li.current a{
 hr.white{
   background: white !important;
   border: white !important;
+}
+
+
+#careers .icon-box1 p.req{
+  font-weight: bold;
+  color:#59A0D7;
+  text-align: inherit;;
+}
+
+
+#careers .icon-box1 p{
+  margin-left: 100px !important;
+  line-height: 1.5em;
+  max-width: none;
+  padding-right: 50px;
+  text-align: justify;;
+}
+
+@media only screen and (max-width: 958px){
+    #careers .icon-box1 p{
+      margin-left: 0px !important;
+      line-height: 1.5em;
+      max-width: none;
+      padding-right: 0px !important;
+      text-align: justify;;
+    }
+}
+
+.product-caption a{
+   display: block;
+   padding:15px 0;
+}
+
+.product-caption a:hover{
+   text-decoration: underline;
 }
