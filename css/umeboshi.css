@@ -292,3 +292,15 @@ li.current a{
   color:#303030 !important;
   font-size: 13px !important;
 }
+
+.white{
+  background: white;
+}
+.container.white{
+    background: white !important;
+}
+
+hr.white{
+  background: white !important;
+  border: white !important;
+}
