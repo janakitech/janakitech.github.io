@@ -16,8 +16,8 @@
 	@import url('./blox.css'); /* Import Full width Sections + Parallax Stylesheet */	
 	@import url('./prettyPhoto.css'); /* Import prettyPhoto Stylesheet */
 	@import url('./flexslider.css'); /* Import Flex Slider Stylesheet */
-	@import url('../layerslider/css/layerslider.css'); /* Import Layer Slider Stylesheet */
-	@import url('../rs-plugin/css/settings.css'); /* Import Revolution Slider Stylesheet */
+	/* @import url('../layerslider/css/layerslider.css'); /* Import Layer Slider Stylesheet */
+	/* @import url('../rs-plugin/css/settings.css'); /* Import Revolution Slider Stylesheet */
 	@import url('./iconfonts.css'); /* Import Vector Icons Stylesheet */
 	@import url('./shop.css'); /* Import Shop stylesheet */
 	@import url('./blog.css'); /* Import Blog stylesheet */
