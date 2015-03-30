@@ -42,7 +42,7 @@ li.current a{
 }
 
 #wrap-inner{
-  background-image: url(../images/hero-banner.png?v100);
+  background-image: url(../images/hero-banner.jng?v200);
   background-size: cover;
   background-position: top left;
   background-repeat: no-repeat;;
@@ -51,7 +51,7 @@ li.current a{
 
 #careers #wrap-inner{
   /*background: #59A0D7 !important;*/
-	background:url(../images/careers-sky.png?v100) #59A0D7 no-repeat bottom center;
+	background:url(../images/careers-sky.jpg?v200) #59A0D7 no-repeat bottom center;
 	background-size: cover;
 }
 
