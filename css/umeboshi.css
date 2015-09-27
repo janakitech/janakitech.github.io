@@ -1,346 +1,312 @@
-/** Umeboshi */
-
-a:link, a:visited{
-  color: black !important;
+a:link,a:visited {
+color:#000!important
 }
 
-li.current a{
-  color: maroon !important;
-  text-decoration: underline;
+li.current a {
+color:maroon!important;
+text-decoration:underline
 }
 
-.umeboshi #wrap{
-	margin:0;
+.umeboshi #wrap {
+margin:0
 }
 
-.umeboshi #header{
-  padding-top: 30px !important;
+.umeboshi #header {
+padding-top:30px!important
 }
 
-@media only screen and (max-width: 959px){
-  #header.sm-rgt-mn, #header.hi-header.sm-rgt-mn {
-    padding: 10px 0 0;
-    height: 120px !important
-  }
+@media only screen and (max-width: 959px) {
+#header.sm-rgt-mn,#header.hi-header.sm-rgt-mn {
+padding:10px 0 0;
+height:120px!important
+}
 }
 
-.nav-wrap1{
-  height: 77px !important;
+.nav-wrap1 {
+height:77px!important
 }
 
-#nav > li > a{
-  margin-top:25px !important;
+#nav > li > a {
+margin-top:25px!important
 }
 
-
-#header, header{
-  background: rgba(255, 255, 255, 0.8);
+#header,header {
+background:rgba(255,255,255,0.8)
 }
 
-#careers #header, #careers header{
-  background: rgba(255, 255, 255, 0.8);
+#careers #header,#careers header {
+background:rgba(255,255,255,0.8)
 }
 
-#wrap-inner{
-  background-image: url(../images/hero-banner.jpg?v200);
-  background-size: cover;
-  background-position: top left;
-  background-repeat: no-repeat;;
-  background-color: #303030;
+#wrap-inner {
+background-image:url(../images/hero-banner.jpg?v200);
+background-size:cover;
+background-position:top left;
+background-repeat:no-repeat;
+background-color:#303030
 }
 
-#careers #wrap-inner{
-  /*background: #59A0D7 !important;*/
-	background:url(../images/careers-sky.jpg?v200) #59A0D7 no-repeat bottom center;
-	background-size: cover;
+#careers #wrap-inner {
+background:url(../images/careers-sky.jpg?v200) #59A0D7 no-repeat bottom center;
+background-size:cover
 }
 
-#wrap-inner > .row{
-  margin-left:-15px;
-  margin-right: -15px;
+#wrap-inner > .row {
+margin-left:-15px;
+margin-right:-15px
 }
 
-.umeboshi.umeboshi-about-us .blox1{
-      background-color: #2c2c2c;
-	background:transparent;
-      height: 610px;
+.umeboshi.umeboshi-about-us .blox1 {
+background-color:#2c2c2c;
+background:transparent;
+height:610px
 }
 
-#careers .hero-features .blox1{
-    background-image: none;
-    background: white;
+#careers .hero-features .blox1 {
+background-image:none;
+background:#fff
 }
 
-#careers .quote{
-    background: #f9f9f9;    
-    border-top: 1px solid tan;
-    border-bottom: 1px solid tan;
-    display: block;
-    text-align: center;
+#careers .quote {
+background:#f9f9f9;
+border-top:1px solid #d2b48c;
+border-bottom:1px solid #d2b48c;
+display:block;
+text-align:center
 }
 
-.quote h2 em{
-  display: inline-block;
-  font-size:0.6em;
-  line-height: 1em;
-  font-weight: bold;
+.quote h2 em {
+display:inline-block;
+font-size:.6em;
+line-height:1em;
+font-weight:700
 }
 
-.quote h2 em::before{
-  content: "- ";
+.quote h2 em::before {
+content:"- "
 }
 
-.quote h2{
-  color:gray;
-  font-size: 2.5em;
-  padding: 30px;
-  font-style: italic;
+.quote h2 {
+color:gray;
+font-size:2.5em;
+padding:30px;
+font-style:italic
 }
 
-#paper-ad h1{
-  margin-bottom: 0px !important;
+#paper-ad h1 {
+margin-bottom:0!important
 }
 
-#paper-ad h2{
-  margin-top: 0px !important;
-  padding-top: 0px !important;
-  font-size: 20px;
-  line-height: 1em;
+#paper-ad h2 {
+margin-top:0!important;
+padding-top:0!important;
+font-size:20px;
+line-height:1em
 }
 
-
-.page-title-x *{
-	color: tan;
+.page-title-x * {
+color:#d2b48c
 }
 
-
-.hero-picovico{
-  border-top: 1px solid #eee;
+.hero-picovico {
+border-top:1px solid #eee
 }
 
-
-.hero-portfolio > .container{
-  padding: 70px 20px;
+.hero-portfolio > .container {
+padding:70px 20px
 }
 
-.product .onhover{
-  display: none
+.product .onhover {
+display:none
 }
 
-.product{
-    display: block;
-    position: relative;;
+.product {
+display:block;
+position:relative
 }
 
-.product img{
-    margin-top:20px;
-    margin-bottom: 10px;
-    display: table-cell;
-    vertical-align: bottom;
-    height: 35px;
+.product img {
+margin-top:20px;
+margin-bottom:10px;
+display:table-cell;
+vertical-align:bottom;
+height:35px
 }
 
-.tm{
-  vertical-align: super;
-  font-size: smaller;
+.tm {
+vertical-align:super;
+font-size:smaller
 }
 
-/*
-
-.hero-portfolio .product, .product-caption{
-  padding: 50px 0;
-  text-align: center;
-    min-height: 150px;
-    width: 100%;
-    display: block;
-    overflow: hidden;
-    margin-bottom: 0;
-    padding-bottom: 0px;
+#careers #wrap {
+background:#59A0D7!important
 }
 
-.product-caption{
-    padding-top:35px;
-    text-align: left;
+.icon-box1 i {
+color:#59A0D7!important
 }
 
-.product .onhover{
-  display: none
+#how-good {
+font-family:sans-serif
 }
 
-.hero-picovico{
-  border-top: 1px solid #eee;
-}*/
-
-#careers #wrap{
-  background: #59A0D7 !important
+.icon-box1:hover i {
+background:#59A0D7;
+border:1px solid #59A0D7
 }
 
-
-.icon-box1 i{
-  color: #59A0D7 !important;
+#how-good h2.first {
+padding:80px 0 10px;
+color:#fff;
+font-size:2em;
+font-weight:700;
+text-transform:uppercase
 }
 
-#how-good{
-  font-family: sans-serif;
+#how-good h2.first span {
+color:#ff0
 }
 
-
-.icon-box1:hover i{
-  background: #59A0D7;
-  border: 1px solid #59A0D7;
+#how-good h2.second {
+font-size:1.5em;
+padding:10px 0;
+line-height:2em;
+color:#fff;
+font-weight:700
 }
 
-#how-good h2.first{
-  padding:80px 0 10px 0;
+#how-good h2.second span {
+display:block
 }
 
-#how-good h2.first{
-  color: white;
-  font-size: 2em;
-  font-weight: bold;
-  text-transform: uppercase;
+#how-good h2.second span.x {
+font-size:1em;
+line-height:1.1em;
+padding-top:1em
 }
 
-#how-good h2.first span{
-  color:yellow;
+#how-good h2.second em {
+background:#303030;
+display:block;
+font-style:normal;
+border-radius:5px;
+padding:.1em 1em;
+color:#fff;
+display:inline-block
 }
 
-#how-good h2.second{
-  font-size:1.5em;
-  padding:10px 0;
-  line-height: 2em;
-  color:white;
-  font-weight: bold;
+#how-good h2.second a:hover em {
+background:#000
 }
 
-#how-good h2.second span{
-  display: block;
+#how-good h3 {
+color:#fff;
+font-size:1.5em;
+line-height:1.3em;
+font-weight:700;
+padding-bottom:20px
 }
 
-#how-good h2.second span.x{
-  font-size: 1em;
-  line-height: 1.1em;
-  padding-top: 1em;
+.hero-features .blox {
+padding-top:50px!important
 }
 
-#how-good h2.second em{
-  background: #303030;
-  display: block;
-  font-style: normal;
-  border-radius: 5px;
-  padding:0.1em 1em;
-  color: white;
-  display: inline-block;
+.hero-features .col-sm-6 {
+min-height:300px
 }
 
-#how-good h2.second a:hover em{
-  background: black;
+.hero-features .col-sm-6:nth-child(2n) {
+clear:both
 }
 
-
-#how-good h3{
-	color:white;
-  font-size: 1.5em;
-  line-height: 1.3em;
-  font-weight: bold;
-  padding-bottom:20px;
+.hero-features h4 {
+font-size:1.2em;
+font-weight:700;
+text-transform:uppercase;
+line-height:1em
 }
 
-.hero-features .blox{
-  padding-top:50px !important;
+.hero-features h5 {
+font-size:1.5em;
+font-weight:400
 }
 
-.hero-features .col-sm-6{
-  min-height: 300px;
+.hero-features h5::before {
+content:"["
 }
 
-
-.hero-features .col-sm-6:nth-child(2n){
-  clear: both;
+.hero-features h5::after {
+content:"]"
 }
 
-.hero-features h4{
-  font-size: 1.2em;
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1em;
+#job-slogan-impress h2.second {
+width:60%
 }
 
-.hero-features h5{
-  font-size: 1.5em;
-  font-weight: normal;
+#job-slogan-impress h2.second span {
+color:#ff0;
+line-height:1.2em
 }
 
-.hero-features h5::before{
-  content: "["
+#job-slogan-impress span.resume-email {
+color:#ff0
 }
 
-.hero-features h5::after{
-  content: "]"
+#job-slogan-impress .fool {
+color:#303030!important;
+font-size:13px!important
 }
 
-
-#job-slogan-impress h2.second{
-  width:60%;
+.white {
+background:#fff
 }
 
-#job-slogan-impress h2.second span{
-  color:yellow;
-  line-height: 1.2em;
+.container.white {
+background:#fff!important
 }
 
-#job-slogan-impress span.resume-email{
-  color: yellow;
+hr.white {
+background:#fff!important;
+border:#fff!important
 }
 
-#job-slogan-impress .fool{
-  color:#303030 !important;
-  font-size: 13px !important;
+#careers .icon-box1 p.req {
+font-weight:700;
+color:#59A0D7;
+text-align:inherit
 }
 
-.white{
-  background: white;
-}
-.container.white{
-    background: white !important;
-}
-
-hr.white{
-  background: white !important;
-  border: white !important;
+#careers .icon-box1 p {
+margin-left:100px!important;
+line-height:1.5em;
+max-width:none;
+padding-right:50px;
+text-align:justify
 }
 
-
-#careers .icon-box1 p.req{
-  font-weight: bold;
-  color:#59A0D7;
-  text-align: inherit;;
+@media only screen and (max-width: 958px) {
+#careers .icon-box1 p {
+margin-left:0!important;
+line-height:1.5em;
+max-width:none;
+padding-right:0!important;
+text-align:justify
+}
 }
 
-
-#careers .icon-box1 p{
-  margin-left: 100px !important;
-  line-height: 1.5em;
-  max-width: none;
-  padding-right: 50px;
-  text-align: justify;;
+.product-caption a:hover {
+text-decoration:underline
 }
 
-@media only screen and (max-width: 958px){
-    #careers .icon-box1 p{
-      margin-left: 0px !important;
-      line-height: 1.5em;
-      max-width: none;
-      padding-right: 0px !important;
-      text-align: justify;;
-    }
+.product-links {
+padding-top:15px
 }
 
-.product-caption a{
-   display: block;
-   padding:15px 0;
+.product-links a {
+padding-right:1em
 }
 
-.product-caption a:hover{
-   text-decoration: underline;
+.product-links a:hover small {
+color:#383838;
+text-decoration:underline
 }
