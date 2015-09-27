@@ -216,10 +216,10 @@
 	.social-icons.members a { text-align: center; float: none; }
 	
 	.footer-in a img { float: left; }
-	.contact-inf span { display: block; color: #9b9b9b; font-family: Arial; font-size: 14px; }
+	.contact-inf span { display: block; color: #9b9b9b; font-family: Roboto; font-size: 14px; }
 	.contact-inf i { margin-right: 5px; color: #474747; }
 	.contact-inf form { margin-top: 20px; }
-	.footer-in .contact-inf input, .footer-in .contact-inf textarea { display: block; min-width: 97%; margin: 12px 0; background: #222; color: #ccc; border: none; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 10px 0px 10px 12px; border-radius: 0; }
+	.footer-in .contact-inf input, .footer-in .contact-inf textarea { display: block; min-width: 97%; margin: 12px 0; background: #222; color: #ccc; border: none; font-family: Roboto, Arial, Helvetica, sans-serif; font-size: 12px; padding: 10px 0px 10px 12px; border-radius: 0; }
 	.footer-in .contact-inf button { padding: 12px 22px; font-size: 10px; text-transform:uppercase; letter-spacing:1px; color:#aaa; font-weight: bold; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; background: #333; background: -moz-linear-gradient(top, #333, #252525); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333), color-stop(100%, #252525)); background: -webkit-linear-gradient(top, #333, #252525); background: -ms-linear-gradient(top, #333, #252525); background: -o-linear-gradient(top, #333, #252525); background: linear-gradient(top, #373737, #252525); border: 1px solid #202020; float: right; margin-right:6px; }
 	.footer-in a:hover { color: #85b940; }
 	#footer.litex .footer-in a { color: #0093d0; }
@@ -417,13 +417,13 @@
 	/* Typekit Fonts 
 	------------------ */
 	
-	p, #nav ul li, .textwidget, .widget-tabs li, .alert { font-family: 'proxima-nova', 'Varela', 'Source Sans Pro',  Helvetica, Arial, sans-serif;}
-	.icon-box3 h5, h3.lintex, .respo-tagline, a.magicmore { font-family: 'proxima-nova', 'Source Sans Pro',  Helvetica, Arial, sans-serif;}
+	p, #nav ul li, .textwidget, .widget-tabs li, .alert { font-family: 'Roboto', 'proxima-nova', 'Varela', 'Source Sans Pro',  Helvetica, Arial, sans-serif;}
+	.icon-box3 h5, h3.lintex, .respo-tagline, a.magicmore { font-family: 'Roboto', 'proxima-nova', 'Source Sans Pro',  Helvetica, Arial, sans-serif;}
 	nav.primary .portfolioFilters a, .max-title2 h2, .max-title4 h2, .zoomex2 h6, .max-counter.s-counter .max-count, .widget h4.subtitle, .postmetadata h6, .blog-post h3, .blog-single-post h1,
 	.pin-ecxt h6, .icon-box h4, .icon-box4 h5, .latest-b2 *, .our-process-item h5, h6.blog-date, .testimonial-brand h5, .max-counter.s-counter h5, .callout h3, .pin-box h4,
-	h1.portfolio-item-title, .works-item-cat-box, .works-item-date-box, .vc_progress_bar .vc_single_bar .vc_label, .wpb_accordion h3, .testimonial-brand h5 em, .tmpl-ex h4 { font-family: 'futura-pt', 'Source Sans Pro',  Helvetica, Arial, sans-serif;}
+	h1.portfolio-item-title, .works-item-cat-box, .works-item-date-box, .vc_progress_bar .vc_single_bar .vc_label, .wpb_accordion h3, .testimonial-brand h5 em, .tmpl-ex h4 { font-family: 'Roboto', 'futura-pt', 'Source Sans Pro',  Helvetica, Arial, sans-serif;}
 	/* New serif google font (Arapey) */
-	blockquote, blockquote p, q, .max-quote h2, .testimonial-content h4, .qot-week h3, h5 em { font-family: 'Arapey', serif;}	
+	blockquote, blockquote p, q, .max-quote h2, .testimonial-content h4, .qot-week h3, h5 em { font-family: 'Roboto', 'Arapey', serif;}	
 	
 
 	
