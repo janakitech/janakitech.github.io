@@ -31,15 +31,15 @@ margin-top:25px!important
 }
 
 #header,header {
-background:rgba(255,255,255,0.8)
+background:rgba(255,255,255,1)
 }
 
 #careers #header,#careers header {
-background:rgba(255,255,255,0.8)
+background:rgba(255,255,255,1)
 }
 
 #wrap-inner {
-background-image:url(../images/hero-banner.jpg?v200);
+background-image:url(../images/creatives-2016/web-banner-01.jpg?v200);
 background-size:cover;
 background-position:top left;
 background-repeat:no-repeat;
@@ -309,4 +309,41 @@ padding-right:1em
 .product-links a:hover small {
 color:#383838;
 text-decoration:underline
+}
+
+#hero-quote{
+    text-align: center;
+    font-size: 2.5em;
+    padding:2em;
+}
+
+#hero-quote .line-1{
+    font-size:1.5em;
+    line-height: 1em;
+}
+#hero-quote .line-2{
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: bold;
+}
+#hero-quote .line-3{
+    font-size: 1em;
+}
+
+@media(max-width:767px){
+    #hero-quote{
+        padding:1em 0 !important;
+    }
+    #hero-quote *{
+        font-size: 1em !important;
+        line-height: 1.3em !important;
+    }
+    #hero-quote .line-2{
+        margin-top: 1em;
+    }
+    #hero-quote .line-3{
+        font-size: 0.8em !important;
+        line-height: 1.2em !important;
+        margin-top: 1em;
+    }
 }
